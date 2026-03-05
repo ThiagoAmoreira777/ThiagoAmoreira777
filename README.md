@@ -1,4 +1,6 @@
-# BEM - VINDO 👋
+# BEM - VINDO!
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=SAIRA&size=30&letterSpacing=0.2rem&pause=1000&color=F70003&background=8A434476&center=true&vCenter=true&width=435&lines=T.A.M-Programando.+.+.)](https://git.io/typing-svg)
+
 
 <!--
 **ThiagoAmoreira777/ThiagoAmoreira777** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
