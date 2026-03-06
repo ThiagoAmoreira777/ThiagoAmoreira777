@@ -22,8 +22,8 @@
 
 ## Métricas 📈
 
-![](https://github-readme-stats-fast.vercel.app/api/streak?username=ThiagoAmoreira777&theme=tokyonight)
-![](https://github-readme-stats-fast.vercel.app/api?username=ThiagoAmoreira777&show_icons=true&theme=tokyonight)
+![](https://github-readme-stats-fast.vercel.app/api/streak?username=ThiagoAmoreira777&theme=tokyonight)<br><br>
+![](https://github-readme-stats-fast.vercel.app/api?username=ThiagoAmoreira777&show_icons=true&theme=tokyonight)<br><br>
 ![](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=ThiagoAmoreira777&layout=compact&theme=tokyonight)
  
 <br><br>
