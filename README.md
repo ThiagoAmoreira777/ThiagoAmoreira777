@@ -35,3 +35,9 @@
     src="https://github-readme-activity-graph.vercel.app/graph?username=ThiagoAmoreira777&bg_color=020617&color=b91c1c&line=ef4444&point=ffffff&area=true&hide_border=true"
     alt="Gráfico de contribuições"
   />
+
+  <picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThiagoAmoreira777/ThiagoAmoreira777/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThiagoAmoreira777/ThiagoAmoreira777/output/github-contribution-grid-snake-dark.svg">
+  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ThiagoAmoreira777/ThiagoAmoreira777/output/github-contribution-grid-snake.svg">
+</picture>
