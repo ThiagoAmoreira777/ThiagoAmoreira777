@@ -1,6 +1,6 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:4c0519,100:991b1b&text=Thiago%20Albuquerque&fontColor=ffffff&fontSize=45&fontAlignY=35&animation=twinkling&fontAlign=50"/>
 <div align="center">
-  <h2>Aprendendo a programar</h2>
+  <h2>Aprendendo a programar...</h2>
 
 <br>
   
