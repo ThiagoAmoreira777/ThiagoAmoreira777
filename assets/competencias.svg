@@ -1,0 +1,93 @@
+<svg width="100%" height="440" viewBox="0 0 1200 440" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .card { fill:#3f0712; stroke:#ef4444; stroke-width:1.2; }
+      .lbl { font-family:'Fira Code', monospace; font-size:11px; letter-spacing:1px; fill:#fca5a5; text-transform:uppercase; }
+      .ttl { font-family:'Fira Code', monospace; font-size:18px; font-weight:700; fill:#ffffff; }
+      .blt { font-family:'Fira Code', monospace; font-size:13px; fill:#fde8e8; }
+      .hdr { font-family:'Fira Code', monospace; font-size:14px; fill:#ffffff; text-anchor:middle; }
+      .chiptxt { font-family:'Fira Code', monospace; font-size:12px; fill:#ffffff; text-anchor:middle; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="440" fill="#4c0519"/>
+
+  <text class="hdr" x="600" y="32">
+    <tspan x="600" dy="0">Desenvolver, instalar e manter sistemas eletroeletrônicos</tspan>
+    <tspan x="600" dy="22">conforme normas técnicas, ambientais, de qualidade, saúde e segurança no trabalho</tspan>
+  </text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.2;1" dur="1s" begin="0s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0,20;0,0" keyTimes="0;1" dur="0.7s" begin="0s" fill="freeze"/>
+    <rect class="card" x="40" y="85" width="340" height="200" rx="10">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.4s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="60" cy="108" r="4" fill="#ef4444"/>
+    <text class="lbl" x="74" y="112">função 1</text>
+    <text class="ttl" x="60" y="137">Desenvolver</text>
+    <text class="blt" x="60" y="170">• Dimensionar sistemas</text>
+    <text class="blt" x="60" y="198">• Projetar sistemas</text>
+    <text class="blt" x="60" y="226">• Integrar sistemas</text>
+    <text class="blt" x="60" y="254">• Validar sistemas</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.2;1" dur="1s" begin="0.18s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0,20;0,0" keyTimes="0;1" dur="0.7s" begin="0.18s" fill="freeze"/>
+    <rect class="card" x="420" y="85" width="340" height="200" rx="10">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.4s" begin="1.18s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="440" cy="108" r="4" fill="#ef4444"/>
+    <text class="lbl" x="454" y="112">função 2</text>
+    <text class="ttl" x="440" y="137">Instalar</text>
+    <text class="blt" x="440" y="184">• Planejar a instalação</text>
+    <text class="blt" x="440" y="212">• Montar sistemas</text>
+    <text class="blt" x="440" y="240">• Validar sistemas</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.2;1" dur="1s" begin="0.36s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="0,20;0,0" keyTimes="0;1" dur="0.7s" begin="0.36s" fill="freeze"/>
+    <rect class="card" x="800" y="85" width="340" height="200" rx="10">
+      <animate attributeName="stroke-opacity" values="0.4;1;0.4" dur="3.4s" begin="1.36s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="820" cy="108" r="4" fill="#ef4444"/>
+    <text class="lbl" x="834" y="112">função 3</text>
+    <text class="ttl" x="820" y="137">Manter</text>
+    <text class="blt" x="820" y="170">• Diagnosticar falhas e defeitos</text>
+    <text class="blt" x="820" y="198">• Planejar manutenção</text>
+    <text class="blt" x="820" y="226">• Realizar manutenção</text>
+    <text class="blt" x="820" y="254">• Validar manutenção</text>
+  </g>
+
+  <text class="hdr" x="600" y="320" text-anchor="middle" font-weight="700">competências práticas</text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.2;1" dur="0.6s" begin="0.9s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="-15,0;0,0" keyTimes="0;1" dur="0.5s" begin="0.9s" fill="freeze"/>
+    <rect x="40" y="350" width="179" height="34" rx="17" fill="#991b1b"/>
+    <text class="chiptxt" x="129" y="372">Leitura de circuitos</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.2;1" dur="0.6s" begin="1.05s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="-15,0;0,0" keyTimes="0;1" dur="0.5s" begin="1.05s" fill="freeze"/>
+    <rect x="235" y="350" width="172" height="34" rx="17" fill="#991b1b"/>
+    <text class="chiptxt" x="321" y="372">Instalação elétrica</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.2;1" dur="0.6s" begin="1.2s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="-15,0;0,0" keyTimes="0;1" dur="0.5s" begin="1.2s" fill="freeze"/>
+    <rect x="423" y="350" width="179" height="34" rx="17" fill="#991b1b"/>
+    <text class="chiptxt" x="512" y="372">Automação industrial</text>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.2;1" dur="0.6s" begin="1.35s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="-15,0;0,0" keyTimes="0;1" dur="0.5s" begin="1.35s" fill="freeze"/>
+    <rect x="618" y="350" width="235" height="34" rx="17" fill="#991b1b"/>
+    <text class="chiptxt" x="735" y="372">NR10 / Segurança do trabalho</text>
+  </g>
+</svg>
