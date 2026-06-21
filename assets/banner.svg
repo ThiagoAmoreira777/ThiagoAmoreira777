@@ -1,0 +1,75 @@
+<svg width="100%" height="220" viewBox="0 0 1200 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c0519"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="waveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#fca5a5" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ef4444" stop-opacity="0.35"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="220" fill="url(#bgGrad)"/>
+
+  <circle cx="600" cy="110" r="260" fill="url(#glow)">
+    <animate attributeName="r" values="240;280;240" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4s" repeatCount="indefinite"/>
+  </circle>
+
+  <path fill="url(#waveGrad)">
+    <animate attributeName="d" dur="6s" repeatCount="indefinite"
+      values="
+        M0,180 C300,140 900,220 1200,170 L1200,220 L0,220 Z;
+        M0,170 C300,220 900,140 1200,190 L1200,220 L0,220 Z;
+        M0,180 C300,140 900,220 1200,170 L1200,220 L0,220 Z
+      "/>
+  </path>
+
+  <path fill="#7f1d1d" opacity="0.55">
+    <animate attributeName="d" dur="8s" repeatCount="indefinite"
+      values="
+        M0,200 C400,170 800,210 1200,190 L1200,220 L0,220 Z;
+        M0,195 C400,215 800,175 1200,205 L1200,220 L0,220 Z;
+        M0,200 C400,170 800,210 1200,190 L1200,220 L0,220 Z
+      "/>
+  </path>
+
+  <g fill="#ffffff">
+    <circle cx="120" cy="50" r="2.5">
+      <animate attributeName="opacity" values="0;1;0" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="260" cy="35" r="1.8">
+      <animate attributeName="opacity" values="0;1;0" dur="2.4s" begin="0.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="45" r="2.2">
+      <animate attributeName="opacity" values="0;1;0" dur="3.2s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="70" r="1.6">
+      <animate attributeName="opacity" values="0;1;0" dur="2.8s" begin="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="850" cy="30" r="2">
+      <animate attributeName="opacity" values="0;1;0" dur="3.6s" begin="0.3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="60" cy="90" r="1.8">
+      <animate attributeName="opacity" values="0;1;0" dur="2.6s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <g opacity="0">
+    <animate attributeName="opacity" values="0;0;1" keyTimes="0;0.3;1" dur="2s" begin="0s" fill="freeze"/>
+    <text x="600" y="105" text-anchor="middle" font-family="'Fira Code', monospace" font-size="46" font-weight="700" fill="#ffffff">
+      Thiago Albuquerque
+      <animateTransform attributeName="transform" type="translate" values="0,25;0,0" keyTimes="0;1" dur="1s" begin="0s" fill="freeze"/>
+    </text>
+    <text x="600" y="145" text-anchor="middle" font-family="'Fira Code', monospace" font-size="18" fill="#fecaca">
+      Técnico em Eletroeletrônica · Desenvolvedor C / C++ / HTML
+      <animateTransform attributeName="transform" type="translate" values="0,20;0,0" keyTimes="0;1" dur="1s" begin="0.3s" fill="freeze"/>
+    </text>
+  </g>
+</svg>
